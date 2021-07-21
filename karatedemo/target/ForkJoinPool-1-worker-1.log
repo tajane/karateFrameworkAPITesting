@@ -1,0 +1,30 @@
+13:09:13.844 unknown driver type: firefoxdriver, defaulting to 'chrome'
+13:09:13.862 preferred port 9222 not available, will use: 53628
+13:09:21.066 {
+  "errorMessage": "rerun.feature:22 - evaluation (js) failed: waitfor('#abc'), javax.script.ScriptException: ReferenceError: \"waitfor\" is not defined in <eval> at line number 1\nstack trace: jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:470)",
+  "featureDir": "C:\\Users\\Admin\\eclipse-KarateBDD\\karatedemo\\target\\test-classes\\com\\mytamplo\\karatefeatures",
+  "scenarioType": "Scenario",
+  "scenarioDescription": "",
+  "scenarioName": "",
+  "featureFileName": "rerun.feature"
+}
+ 
+13:09:22.623 feature call failed: classpath:com/mytamplo/karatefeatures/rerun.feature
+arg: null
+rerun.feature:22 - evaluation (js) failed: waitfor('#abc'), javax.script.ScriptException: ReferenceError: "waitfor" is not defined in <eval> at line number 1
+stack trace: jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:470)
+13:09:22.624 javascript function call failed: com.intuit.karate.exception.KarateException: 
+rerun.feature:22 - evaluation (js) failed: waitfor('#abc'), javax.script.ScriptException: ReferenceError: "waitfor" is not defined in <eval> at line number 1
+stack trace: jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:470)
+13:09:22.626 failed function body: function(){
+	var info = karate.info;
+	karate.log(info);
+	if(info.errorMessage)
+	{
+		karate.call('rerun.feature');
+	}
+}
+13:09:22.626 afterScenario hook failed: javascript function call failed: com.intuit.karate.exception.KarateException: 
+rerun.feature:22 - evaluation (js) failed: waitfor('#abc'), javax.script.ScriptException: ReferenceError: "waitfor" is not defined in <eval> at line number 1
+stack trace: jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:470)
+70)

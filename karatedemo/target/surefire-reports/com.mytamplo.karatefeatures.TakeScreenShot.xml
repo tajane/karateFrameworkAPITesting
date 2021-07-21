@@ -1,0 +1,8 @@
+<testsuite failures="0" name="com/mytamplo/karatefeatures/TakeScreenShot.feature" skipped="0" tests="1" time="6.130994">
+  <testcase classname="com.mytamplo.karatefeatures.TakeScreenShot" name="1" time="6.130994">
+    <system-out>* configure afterScenario = ............................................... passed
+* configure driver = {type: 'firefoxdriver'} .............................. passed
+Given driver 'https://www.amazon.in/' ..................................... passed
+Then maximize() ........................................................... passed</system-out>
+  </testcase>
+</testsuite>

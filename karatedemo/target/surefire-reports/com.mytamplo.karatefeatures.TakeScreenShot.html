@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+<meta charset="utf-8">
+    
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    
+<link href="res/bootstrap.min.css" rel="stylesheet" type="text/css">
+    
+<link href="res/karate-report.css" rel="stylesheet" type="text/css">
+    
+<link href="favicon.ico" rel="shortcut icon">
+    
+<script src="res/jquery.min.js" type="text/javascript"></script>
+    <script src="res/jquery.tablesorter.min.js" type="text/javascript"></script>
+    <script src="res/bootstrap.min.js" type="text/javascript"></script>
+    <script src="res/karate-report.js" type="text/javascript"></script>
+    
+<title>com.mytamplo.karatefeatures.TakeScreenShot</title>
+  
+</head>
+  
+<body>
+    
+<div id="root-container">
+      
+<div id="leftnav">
+        
+<div class="nav-logo">
+          
+<a href="karate-summary.html">
+            <img alt="Karate" src="res/karate-logo.svg">
+          </a>
+          
+<div class="nav-count">
+            
+<div class="bg-success" id="nav-pass">1</div>
+            
+<div class="bg-danger" id="nav-fail">0</div>
+          
+</div>
+        
+</div>
+        
+<div id="nav-type">Scenarios</div>         
+        
+<div id="nav-date">2021-01-02 02:17:49 PM</div>        
+      
+<div class="nav-container">
+<div class="nav-item passed">
+<a href="#[1:16]">[1:16] </a>
+</div>
+</div>
+</div>
+      
+<div id="content">
+      
+<div class="page-heading alert alert-primary">
+<a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">com/mytamplo/karatefeatures/TakeScreenShot.feature</span><span class="feature-description">screenshot test</span>
+</div>
+<div class="scenario">
+<div class="scenario-heading" id="[1:16]">
+<div class="heading-container">
+<div class="scenario-tags"></div>
+<span class="scenario-keyword">Scenario: [1:16]</span><span class="scenario-name"></span>
+</div>
+<div class="scenario-time passed">ms: 6131</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="[1:16]bg">
+<div class="step-ref bg-step">&gt;&gt;</div>
+<div class="step-cell passed">Background:</div>
+</div>
+<div class="time-cell passed"></div>
+</div>
+<div class="step-row" data-parent="[1:16]bg">
+<div class="step-container" id="1">
+<div class="step-ref bg-step">1</div>
+<div class="step-cell passed">* configure afterScenario =</div>
+</div>
+<div class="time-cell passed">5</div>
+</div>
+<div class="preformatted" data-parent="1">function(){
+	var info = karate.info;
+	karate.log(info);
+	if(info.errorMessage)
+	{
+		driver.screenshot();
+	}
+}</div>
+<div class="step-row">
+<div class="step-container" id="2">
+<div class="step-ref passed">2</div>
+<div class="step-cell passed">* configure driver = {type: 'firefoxdriver'}</div>
+</div>
+<div class="time-cell passed">4</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="3">
+<div class="step-ref passed">3</div>
+<div class="step-cell passed">Given driver 'https://www.amazon.in/'</div>
+</div>
+<div class="time-cell passed">5898</div>
+</div>
+<div class="preformatted" data-parent="3">14:17:43.397 unknown driver type: firefoxdriver, defaulting to 'chrome'
+14:17:43.417 preferred port 9222 not available, will use: 51092</div>
+<div class="step-row">
+<div class="step-container" id="4">
+<div class="step-ref passed">4</div>
+<div class="step-cell passed">Then maximize()</div>
+</div>
+<div class="time-cell passed">224</div>
+</div>
+<div class="preformatted" data-parent="4">14:17:49.580 {
+  "errorMessage": null,
+  "featureDir": "C:\\Users\\Admin\\eclipse-KarateBDD\\karatedemo\\target\\test-classes\\com\\mytamplo\\karatefeatures",
+  "scenarioType": "Scenario",
+  "scenarioDescription": "",
+  "scenarioName": "",
+  "featureFileName": "TakeScreenShot.feature"
+}</div>
+</div>
+</div>
+    
+</div>   
+  
+</body>
+
+</html>

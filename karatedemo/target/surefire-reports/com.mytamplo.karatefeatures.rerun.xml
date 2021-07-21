@@ -1,0 +1,15 @@
+<testsuite failures="1" name="com/mytamplo/karatefeatures/rerun.feature" skipped="0" tests="1" time="7.206754">
+  <testcase classname="com.mytamplo.karatefeatures.rerun" name="1" time="7.206754">
+    <failure message="rerun.feature:22 - evaluation (js) failed: waitfor('#abc'), javax.script.ScriptException: ReferenceError: &quot;waitfor&quot; is not defined in &lt;eval&gt; at line number 1&#10;stack trace: jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:470)">* configure afterScenario = ............................................... passed
+* configure driver = {type: 'firefoxdriver'} .............................. passed
+Given driver 'https://www.amazon.in/' ..................................... passed
+Then maximize() ........................................................... passed
+Given driver 'https://www.facebook.com/' .................................. passed
+And waitfor('#abc') ....................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: rerun.feature:22 - evaluation (js) failed: waitfor('#abc'), javax.script.ScriptException: ReferenceError: "waitfor" is not defined in &lt;eval&gt; at line number 1
+stack trace: jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:470)&#13;
+	at ✽.And waitfor('#abc') (rerun.feature:22)</failure>
+  </testcase>
+</testsuite>

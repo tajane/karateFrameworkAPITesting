@@ -1,0 +1,8 @@
+{
+"dueDate":"24 Dec 2020",
+"assignee":{"id":7060},
+"description":"action from karate",
+"priority":10,
+"name":"automation action 4",
+"project":{"id":7069}
+}
